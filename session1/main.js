@@ -10,3 +10,5 @@ let newColour = prompt('Add another colour');
 favouriteColours.push(newColour)
 console.log(favouriteColours)
 
+favouriteColours.pop()
+console.log(favouriteColours)

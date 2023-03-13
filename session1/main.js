@@ -6,5 +6,7 @@ let aboutMe = `My name is ${myName}, I am ${myAge} years old and I will soon bec
 console.log(aboutMe)
 
 let favouriteColours = ['red', 'pink', 'black', 'green', 'blue']
-console.log(favouriteColours[0])
-console.log(favouriteColours[4])
+let newColour = prompt('Add another colour');
+favouriteColours.push(newColour)
+console.log(favouriteColours)
+

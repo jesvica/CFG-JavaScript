@@ -1,3 +1,4 @@
+// exercise 1
 let genre = 'horror';
 let rating = 5;
 let pillows = 1;
@@ -13,3 +14,9 @@ if (rating > 1 && pillows === 1 && genre === 'horror') {
 } else {
     console.log('We can hang out and talk!')
 }
+
+//exercise 2
+function addTwoNumbers(num1,num2) {
+    return num1 + num2;
+}
+console.log(addTwoNumbers(2938,2))

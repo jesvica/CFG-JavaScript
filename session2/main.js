@@ -20,3 +20,10 @@ function addTwoNumbers(num1,num2) {
     return num1 + num2;
 }
 console.log(addTwoNumbers(2938,2))
+
+//exercise 3
+let students = ["Sofia", "Elizabeth", "Sasha", "Samantha", "Abigail", "Lorena", "Ayesha", "Adeyo", "Emil"]
+
+for (var i = 0; i < students.length; i++) {
+    console.log(students[i])
+}

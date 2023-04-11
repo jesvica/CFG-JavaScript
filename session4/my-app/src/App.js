@@ -5,6 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2>One of my hobbies is: Crocheting</h2>
+        <p>You will need:</p>
+        <ul>
+          <li>Crochet hook</li>
+          <li>Wool</li>
+          <li>Scissors</li>
+          <li>Tape Measure</li>
+        </ul>
+        <p>I enjoy crocheting as it is a way to relax, I enjoy being creative and I love creating things I can use or wear.</p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save.

@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './button.js';
+import PropTypes from 'prop-types';
+import Footer from './footer';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer name='CFG' header='Welcome'/> 
     </div>
   );
 }
